@@ -1,8 +1,8 @@
 
 $(function(){
 
-	var CountToReview = 0;
-	var CountToReviewLabel = $('');
+	let CountToReview = 0;
+	let CountToReviewLabel = $('');
 
 	let widget = $('div.timetable');
 	let prev   = widget.find('span.btn_prev');
