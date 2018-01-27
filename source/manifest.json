@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+
+    "name": "Netology Widget CheckTab",
+    "version": "0.1",
+
+    "icons": {
+        "128": "favicon.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": [ "*://*/trainer/*" ],
+            "js": [ "js/lib/jquery.js", "js/content.js" ]
+        }
+    ],
+
+    "permissions": [
+        "https://netology.ru/trainer/*"
+    ],
+
+    "browser_action": {
+        "default_title" : "Netology Widget CheckTab",
+        "default_icon"  : "favicon.png"
+    }
+
+}
