@@ -1,2 +1,2 @@
-# Exclude any PEM
 *.pem
+.directory
